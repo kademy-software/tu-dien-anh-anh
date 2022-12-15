@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+        <!--Icon siu đẹp-->
+        <script src="https://kit.fontawesome.com/c402fe43bf.js" crossorigin="anonymous"></script>
+        <title>Dictionary</title>
+    </head>
+    <body>
+     
+        <audio id="sound"></audio>
+     
+        <div class="container">
+            
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Type the word here.. / Tra cứu"
+                    id="inp-word"
+                />
+                <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          
+                <button id="backToHome" onclick="location.href='https://kademy-software.github.io/thong-tin-mon-hoc/'" type="button">
+                    <i class="fa-solid fa-house"></i>
+                </button>
+                <button id="goToBar" onclick="location.href='https://kademy-software.github.io/thong-tin-mon-hoc/chuc-nang.html'" type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+         
+            <div class="result" id="result"></div>
+        </div>
+        <!-- Script -->
+        <script src="main.js"></script>
+    </body>
+</html>
